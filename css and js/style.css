@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #aec7f9;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  border-radius: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 50px 30px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #052343;
+  letter-spacing: 1.2px;
+  font-size: 30px;
+}
+
+#celsius,
+#fahrenheit,
+#kelvin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+label {
+  color: rgb(74, 31, 31);
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  font-weight: 800;
+  padding-right: 30px;
+}
+input {
+  flex: 5;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button button {
+  background-color: #052343;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button button:hover {
+  background: rgb(145, 143, 143);
+  color: #fff;
+}
